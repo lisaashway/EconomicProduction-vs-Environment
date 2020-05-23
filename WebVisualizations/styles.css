@@ -1,7 +1,6 @@
 /* Styling for HTML elements */
  @media (max-width: 600px){
   .phone {
-    font-weight: bolder;
-    font-style: italic ;
+    background: #c6e9fd;
   }
 }
