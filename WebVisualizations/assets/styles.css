@@ -1,4 +1,5 @@
 /* Styling for HTML elements */
+
 .center{
     align-items: center;
 }
@@ -31,6 +32,16 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 21px;
     font-weight: 200;
+    line-height: 30px;
+    text-indent: 50px;
+}
+
+.reg-link{
+    text-align: right;
+    color:rgb(40, 164, 201);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 500;
     line-height: 30px;
 }
  @media (max-width: 600px){
