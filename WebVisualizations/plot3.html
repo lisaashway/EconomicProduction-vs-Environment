@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <title>Latitude Analysis</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel = "stylesheet" href="styles.css">
+    <<link rel = "stylesheet" href="assets/styles.css">
 </head>
 
-<nav class="phone navbar navbar-expand-sm navbar-light bg-light">
-    <a class="phone navbar-brand" href="https://lisaashway.github.io/Web-Design-Challenge/">Lattitudes</a>
-    <button class="phone navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="phone navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <a class="blue navbar-brand" href="https://lisaashway.github.io/Web-Design-Challenge/">Lattitudes</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="phone navbar-collapse collapse" id="navbarSupportedContent" style="">
-        <ul class="phone navbar-nav ml-auto">
-            <li class="phone nav-item dropdown">
+    <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+        <ul class="navbar-nav ml-auto">
+            <li class="blue nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="plot1.html">Plot 1</a>
-                    <a class="dropdown-item" href="plot2.html">Plot 2</a>
-                    <a class="dropdown-item" href="plot3.html">Plot 3</a>
-                    <a class="dropdown-item" href="plot4.html">Plot 4</a>
+                  <a class="dropdown-item" href="plot1.html">CO and Unemployment</a>
+                  <a class="dropdown-item" href="plot2.html">NO2 and Unemployment</a>
+                  <a class="dropdown-item" href="plot3.html">O3 and Unemployment</a>
+                  <a class="dropdown-item" href="plot4.html">SO2 and Unemployment</a>
                 </div>
             </li>
-            <li class="nav-item">
+            <li class="blue nav-item">
                 <a class="nav-link" href="comparisons.html">Comparison</a>
             </li>
-            <li class="nav-item">
+            <li class="blue nav-item">
                 <a class="nav-link" href="data.html">Data</a>
             </li>
         </ul>
@@ -37,12 +37,20 @@
   </nav>
 
 <body>
-    <div>
-        <h1>Welcome to My page</h1>
+    <div class  = "jumbotron">
+        <h1 class = "header text-center">O3 and Unemployment from 2005 to 2017</h1>
+        <div class="col-md-12">
+                <div class="img-responsive">
+                    <img src="visualizations/O3.png" alt="..." class="img-thumbnail">
+                </div>
+        </div>
 
-        <h2>This is plot 3</h2>
-
-    </div>
+        <p class = "reg-font">
+            The figure shown above plots the percentage of Unemployment in the US, alongside Ozone (O3) captured in the atmosphere. While Ozone naturally
+            occurs in the upper atmosphere, it is highly dangerous when closer to the ground. It is the only pollutant analyzed that steadily increases over time -
+            however in 2009 it takes a sharp dive as an economic recession begins.
+        </p>
+     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

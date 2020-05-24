@@ -1,19 +1,15 @@
 /* Styling for HTML elements */
 
-.center{
-    align-items: center;
-}
 .blue{
-    outline-color: white;
     align-items: flex-start;
-    background-color: rgb(91,192,222);
+    background-color: rgb(133, 223, 250);
     background-image: linear-gradient();
-    border-radius: 6px;
+    border-radius: 20px;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(40, 164, 201);
     vertical-align: middle;
-    color: white;
+    
 }
 
 .yellow{
@@ -33,7 +29,6 @@
     font-size: 21px;
     font-weight: 200;
     line-height: 30px;
-    text-indent: 50px;
 }
 
 .reg-link{
@@ -41,11 +36,11 @@
     color:rgb(40, 164, 201);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 30px;
 }
  @media (max-width: 600px){
-  .phone {
-    background: #c6e9fd;
+  .blue {
+    background: #84f19c;
   }
 }
