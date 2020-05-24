@@ -1,5 +1,20 @@
 /* Styling for HTML elements */
 
+.jumbotron{
+    background-color: rgb(234, 235, 238);
+    border-color: #000000;
+}
+
+.header{
+    color: rgb(133, 223, 250);
+    font-family: "Impact", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 75px;
+    text-shadow: 0 0 3px #000000;
+    font-stretch: expanded;
+}
+
 .blue{
     align-items: flex-start;
     background-color: rgb(133, 223, 250);
@@ -7,7 +22,7 @@
     border-radius: 20px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(40, 164, 201);
+    border-color: rgb(66, 68, 68);
     vertical-align: middle;
     
 }
@@ -25,22 +40,61 @@
 
 .reg-font{
     color:rgb(51, 51, 51);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Muli", Helvetica, Arial, sans-serif;
     font-size: 21px;
-    font-weight: 200;
+    font-weight: 100;
     line-height: 30px;
 }
 
 .reg-link{
     text-align: right;
-    color:rgb(40, 164, 201);
+    color: rgb(83, 83, 83);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 21px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 30px;
 }
- @media (max-width: 600px){
+ @media (max-width: 1100px){
   .blue {
-    background: #84f19c;
+    background: #84f19c;}
+.header{
+    color:#84f19c;
+}
+.jumbotron{
+    background-color: rgb(234, 238, 234);
+}
+}
+
+@media (max-width: 900px){
+    .blue {
+      background: #c4aae5;
+    }
+    .header{
+        color:#c4aae5;
+    }
+    .jumbotron{
+        background-color: rgb(236, 234, 238);
   }
 }
+@media (max-width: 700px){
+    .blue {
+    background: #f3bcdd;
+    }
+    .header{
+    color:#f3bcdd;
+    }
+    .jumbotron{
+    background-color: rgb(238, 234, 234);
+    }
+}
+
+  @media (max-width: 500px){
+    .blue {
+      background: #f1c584;
+    }
+    .header{
+        color:#f1c584;
+    }
+    .jumbotron{
+        background-color: rgb(238, 238, 234);
+  }
