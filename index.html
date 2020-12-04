@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pollution & Unemployment</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="WebVisualizations/assets/bootstrap.min.css">
     <link rel = "stylesheet" href="WebVisualizations/assets/styles.css">
 </head>
 
@@ -37,66 +37,42 @@
   </nav>
 
 <body>
-    <div class="jumbotron">
-        <h1 class = "header text-center">Economic Production vs Environmental Destruction</h1><br>
-            <p class = "reg-font">As society faces one of the most pressing economic downturns in history,
-             many headlines have emerged touting its environmental effects. Dolphins have been 
-             seen returning to the canals in Venice, smog is disappearing over Los Angeles, 
-             and people in the Jalandhar area of India can see the Himalayas for the first 
-             time in 30 years. <br><br>This has begged us to ask the question: “What are the environmental 
-             effects of economic activity?”<br> 
-            <br>Here you find some data analysis attempting to answer this question. Sources include unemployment data from
-            the U.S. Bureau of Labor Statistics, and US air pollution data from the EPA.
-        </p>
+
+    <div class = "row justify-content-center" style="padding-top: 4rem;">
+
+
+        <div class="card bg-white border-success" style = "padding: 2rem; max-width: 70rem;"> 
+            <h2>Economic Production and Environmental Destruction</h2>
+            <h6>As society faces one of the most pressing economic downturns in history,
+                many headlines have emerged touting its environmental effects. Dolphins have been 
+                seen returning to the canals in Venice, smog is disappearing over Los Angeles, 
+                and people in the Jalandhar area of India can see the Himalayas for the first 
+                time in 30 years. <br><br>This has begged us to ask the question: “What are the environmental 
+                effects of economic activity?”<br> 
+                <br>Here you find some data analysis attempting to answer this question. Sources include unemployment data from
+                the U.S. Bureau of Labor Statistics, and US air pollution data from the EPA.
+            </h6>
+        </div>
+        
     </div>
-    <div class = "jumbotron">
-        <div>
-            <h1 class ="header text-center">Visualizations<Br></h1>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <a href = "WebVisualizations/plot1.html">
-                    <div class="thumbnail">
-                        <img src="WebVisualizations/visualizations/CO.png" alt="..." class="img-thumbnail">
-                    </div>
-                    <div class="text-center caption">
-                        <span class = "reg-link">CO and Unemployment</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a href = "WebVisualizations/plot2.html">
-                    <div class="thumbnail">
-                        <img src="WebVisualizations/visualizations/NO2.png" alt="..." class="img-thumbnail">
-                    </div>
-                    <div class="text-center caption">
-                        <span class = "reg-link">NO2 and Unemployment</span>
-                    </div>
-                </a>
-             </div>
-        </div>
-        <div class = "row">
-            <div class="col-md-6">
-                <a href = "WebVisualizations/plot3.html">
-                    <div class="thumbnail">
-                        <img src="WebVisualizations/visualizations/O3.png" alt="..." class="img-thumbnail">
-                    </div>
-                    <div class="text-center caption">
-                        <span class = "reg-link">O3 and Unemployment</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a href = "WebVisualizations/plot4.html">
-                    <div class="thumbnail">
-                        <img src="WebVisualizations/visualizations/SO2.png" alt="..." class="img-thumbnail">
-                    </div>
-                    <div class="text-center caption">
-                        <span class = "reg-link">SO2 and Unemployment</span>
-                    </div>
-                </a>
-             </div>
-        </div>
+
+    <div class = "row" style = "padding-bottom: 5rem;"></div>
+
+    <div class = "row justify-content-center">
+
+        <div class = "card col-4 text-white bg-secondary border-success">
+                <div class ="card-header text-center">Visualizations</div>
+
+                
+                    <a class = "btn btn-secondary" href = "WebVisualizations/plot1.html">CO and Unemployment</a>
+
+                    <a class = "btn btn-secondary" href = "WebVisualizations/plot2.html">NO2 and Unemployment</a>
+
+                    <a class = "btn btn-secondary" href = "WebVisualizations/plot3.html">O3 and Unemployment</a>
+
+                    <a class = "btn btn-secondary" href = "WebVisualizations/plot4.html">SO2 and Unemployment</a>
+
+        </div>  
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
