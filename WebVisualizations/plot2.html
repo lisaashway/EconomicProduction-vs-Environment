@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Pollution & Unemployment</title>
-        <link rel="stylesheet" href="WebVisualizations/assets/bootstrap.min.css">
-        <link rel = "stylesheet" href="WebVisualizations/assets/styles.css">
+        <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel = "stylesheet" href="assets/styles-plots.css">
     </head>
     
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -20,17 +20,17 @@
                       Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="WebVisualizations/plot1.html">CO and Unemployment</a>
-                      <a class="dropdown-item" href="WebVisualizations/plot2.html">NO2 and Unemployment</a>
-                      <a class="dropdown-item" href="WebVisualizations/plot3.html">O3 and Unemployment</a>
-                      <a class="dropdown-item" href="WebVisualizations/plot4.html">SO2 and Unemployment</a>
+                      <a class="dropdown-item" href="plot1.html">CO and Unemployment</a>
+                      <a class="dropdown-item" href="plot2.html">NO2 and Unemployment</a>
+                      <a class="dropdown-item" href="plot3.html">O3 and Unemployment</a>
+                      <a class="dropdown-item" href="plot4.html">SO2 and Unemployment</a>
                     </div>
                 </li>
                 <li class="blue nav-item">
-                    <a class="nav-link" href="WebVisualizations/comparisons.html">Comparison</a>
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
                 </li>
                 <li class="blue nav-item">
-                    <a class="nav-link" href="WebVisualizations/data.html">Data</a>
+                    <a class="nav-link" href="data.html">Data</a>
                 </li>
             </ul>
         </div>
@@ -38,19 +38,28 @@
     
 
 <body>
-        <div class  = "jumbotron">
-            <h1 class = "header text-center">NO2 and Unemployment from 2005 to 2017</h1>
-            <div class="col-md-12">
-                    <div class="img-responsive">
-                        <img src="visualizations/NO2.png" alt="..." class="img-thumbnail">
-                    </div>
-            </div>
-    
-            <p class = "reg-font">
-                The figure shown above plots the percentage of Unemployment in the US, alongside Nitrogen Dioxide captured in the atmosphere. 
+
+         <div class = "row justify-content-center">
+
+            <div class  = "card bg-white border-success col-10" style = "padding: 2rem;">
+                <h2 class = "text-center">NO2 and Unemployment from 2005 to 2017</h2>
+                <h6><br><br>
+                    The figure shown above plots the percentage of Unemployment in the US, alongside Nitrogen Dioxide captured in the atmosphere. 
                 During the time of drastically rising Unemployment, we all see the sharpest fall in NO2, which reaches a local minimum around 2009.
-            </p>
-         </div>
+                </h6>
+            </div>
+        </div>
+    
+        <div class = "row" style = "padding-top: 5rem;"></div>
+    
+        <div class = "row justify-content-center">
+    
+            <div class="col-md-8">
+                <div class="img-responsive">
+                    <img src="visualizations/NO2.png" alt="..." class="img-thumbnail">
+                </div>
+            </div>
+        </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

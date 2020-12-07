@@ -2,6 +2,7 @@
 
 body {
     background-image: url(background.jpg);
+    background-color: rgb(194, 228, 222);
     background-size: auto;
     padding-bottom: 100px;
   }
